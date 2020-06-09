@@ -77,6 +77,22 @@ var series = ['2k','4k','6k','8k','10k','12k','14k','16k','18k','20k']
 document.writeln('<b>Series:</b><br>'+series)
 
 
+var bakery = new Array('cake', 'apple pie', 'cookie', 'chips', 'patties')
+var order = prompt('Welcome to ABC Bakery. What do you want to order Sir/Mam?')
+var index = [0,1,2,3,4]
+for(var i=0;i<bakery.length && index.length ;i++){
+    if(order === bakery[i]){
+        document.writeln(order+' is available at index '+index[i]+' in our bakery')
+        break;
+    }
+    else{
+        document.writeln('We are sorry. '+order+' is not available in our bakery')
+        break;
+    }
+}
+
+
+
 document.writeln('<br><br>')
 var arr = [24, 53, 78, 91, 12]
 document.writeln('Array Items: '+arr)
