@@ -1,3 +1,5 @@
+// Task 1
+
 document.writeln('Result:<br>');
 var a = 10;
 document.writeln('The value of a is: '+a+'<br>');
@@ -15,6 +17,7 @@ a--;
 document.writeln('<br>The value of a++ is: '+a+'<br>');
 document.writeln('Now the value of a is: '+a+'<br>');
 
+// Task 2
 
 document.writeln('<br>')
 var a = 2;
@@ -24,15 +27,18 @@ document.writeln('<br>a is '+a);
 document.writeln('<br>b is '+b);
 document.writeln('<br>Result is '+result+'<br>');
 
+// Task 3
 
 document.writeln('<br>')
 var myName = prompt('Enter You name');
 document.writeln('<br>My name is '+myName+'<br>');
 
+// Task 4
 
 document.writeln('<br>')
 document.writeln('<br>question 4 is not mentioned in the assignment file<br><br>')
 
+// Task 5
 
 document.writeln('<br>')
 var table = prompt('Enter a number')
@@ -45,6 +51,7 @@ for(var i=1;i<=10;i++){
     }
 }
 
+// Task 6
 
 document.writeln('<br>')
 var totalMarks = 100;

@@ -1,3 +1,5 @@
+// Task 1
+
 var aCharacter = prompt('Enter a character')
 for(var i='A'; i<='Z'; i++){
     for(var j='a'; j<='z';j++){
@@ -5,6 +7,7 @@ for(var i='A'; i<='Z'; i++){
     }
 }
 
+// Task 2
 
 document.writeln('<br><br>')
 var firstNum = parseInt(prompt('Enter a 1st integer'))
@@ -19,6 +22,7 @@ else if(firstNum === secondNum){
     document.writeln('Both integers are equal')
 }
 
+// Task 3
 
 document.writeln('<br><br>')
 var aNumber = parseInt(prompt('Enter a number'))
@@ -32,6 +36,7 @@ else if(aNumber === 0){
     document.writeln(aNumber+' is a zero number')
 }
 
+// Task 4
 
 document.writeln('<br><br>')
 var aCharacter = prompt('Enter a vowel')
@@ -42,6 +47,7 @@ else{
     document.writeln('It is not a vowel')
 }
 
+// Task 5
 
 document.writeln('<br><br>')
 var password = 'talha123';
@@ -56,6 +62,7 @@ else{
     alert('Incorrect Password')
 }
 
+// Task 6
 
 document.writeln('<br><br>')
 var greeting = '';
@@ -69,6 +76,7 @@ else{
     alert(greeting)
 }
 
+// Task 7
 
 document.writeln('<br><br>')
 var time = 1900;

@@ -1,3 +1,5 @@
+// Task 1
+
 var city = prompt('Enter a city name');
 if(city === 'karachi' || city === 'Karachi' || city === 'KARACHI'){
     document.writeln('Welcome to city of lights')
@@ -5,6 +7,8 @@ if(city === 'karachi' || city === 'Karachi' || city === 'KARACHI'){
 else{
     document.writeln('Error')
 }
+
+// Task 2
 
 document.writeln('<br>')
 var gender = prompt('Enter your gender');
@@ -14,6 +18,8 @@ if(gender === 'Male' || gender === 'male' || gender === 'MALE'){
 else if(gender === 'Female' || gender === 'female' || gender === 'FEMALE'){
     document.writeln('Good Morning Mam')
 }
+
+// Task 3
 
 document.writeln('<br>')
 var signalColor1 = prompt('Enter 1st light')
@@ -30,6 +36,8 @@ if(signalColor3 === 'Green' || signalColor3 === 'GREEN' || signalColor3 === 'gre
     document.writeln('<br>Green:       Move Now<br>')
 }
 
+// Task 4
+
 document.writeln('<br>')
 var remainingFuel = parseFloat(prompt('Input the Remaining Fuel in Car'))
 if(remainingFuel < 0.25){
@@ -39,15 +47,23 @@ else{
     document.writeln('Enjoy Your ride')
 }
 
+// Task 5a
+
 document.writeln('<br>')
 var a = 4;
 if (++a === 5){
 alert("given condition for variable a is true");
 }
+
+// Task 5b
+
 var b = 82;
 if (b++ === 83){
 alert("given condition for variable b is true");
 }
+
+// Task 5c
+
 var c = 12;
 if (c++ === 13){
 alert("condition 1 is true");
@@ -61,21 +77,32 @@ alert("condition 3 is true");
 if(c === 14){
 alert("condition 4 is true");
 }
+
+// Task 5d
+
 var materialCost = 20000;
 var laborCost = 2000;
 var totalCost = materialCost + laborCost;
 if (totalCost === laborCost + materialCost){
 alert("The cost equals");
 }
+
+// Task 5e
+
 if (true){
     alert("True");
 }
 if (false){
     alert("False");
 }
+
+// Task 5f
+
 if("car" < "cat"){
     alert("car is smaller than cat");
 }
+
+// Task 6
 
 document.writeln('<br>')
 document.writeln('<h1>Marksheet</h1>')
@@ -105,6 +132,8 @@ else if(percentage < 60){
     document.writeln('Remarks: Sorry')
 }
 
+// Task 7
+
 document.writeln('<br>')
 document.writeln('<h1>Guess Game</h1>')
 var secretNumber = 5;
@@ -119,6 +148,8 @@ else{
     document.writeln('Sorry you lose the game')
 }
 
+// Task 8
+
 document.writeln('<br>')
 var aNumber = parseInt(prompt('Enter a number'))
 if(aNumber % 3 === 0 ){
@@ -128,6 +159,8 @@ else{
     document.writeln('the number is not divisible by 3')
 }
 
+// Task 9
+
 document.writeln('<br>')
 var aNumber = parseInt(prompt('Enter a number'))
 if(aNumber % 2 === 0 ){
@@ -136,6 +169,8 @@ if(aNumber % 2 === 0 ){
 else{
     document.writeln('the number is odd')
 }
+
+// Task 10
 
 document.writeln('<br>')
 var temperature = parseInt(prompt('Enter a number'))
@@ -151,6 +186,8 @@ else if(temperature > 20){
 else if(temperature > 10){
     document.writeln('OMG! Today’s weather is so Cool.')
 }
+
+// Task 11
 
 document.writeln('<br>')
 var firstNum = parseInt(prompt('Enter a 1st number'))

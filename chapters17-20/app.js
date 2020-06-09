@@ -1,30 +1,35 @@
-var aNum = [ 
+// Task 1
+
+var aNum1 = [ 
     [], 
     [], 
     [], 
  ];  
- for(var i = 0; i < aNum.length; i++) { 
-     document.write(aNum[i] + "<br>"); 
+ for(var i = 0; i < aNum1.length; i++) { 
+     document.write(aNum1[i] + "<br>"); 
 }
 
+// Task 2
 
 document.writeln('<br><br>')
-var aNum = [ 
+var aNum2 = [ 
     [0,1,2,3], 
     [1,0,1,2], 
     [2,1,0,1], 
  ];  
- for(var i = 0; i < aNum.length; i++) { 
-     document.write(aNum[i] + "<br>"); 
+ for(var i = 0; i < aNum2.length; i++) { 
+     document.write(aNum2[i] + "<br>"); 
 }
 
+// Task 3
 
 document.writeln('<br><br>')
-var aNum = [1,2,3,4,5,6,7,8,9,10];  
- for(var i = 0; i < aNum.length; i++) { 
-     document.write(aNum[i] + "<br>"); 
+var aNum3 = [1,2,3,4,5,6,7,8,9,10];  
+ for(var i = 0; i < aNum3.length; i++) { 
+     document.write(aNum3[i] + "<br>"); 
 }
 
+// Task 4
 
 document.writeln('<br><br>')
 var table = parseInt(prompt('Enter a number to show its multiplication table'))
@@ -35,6 +40,7 @@ for(var i=1;i<=lengthOfTable;i++){
     document.writeln(table+' * '+i+' = '+table*i+'<br>')
 }
 
+// Task 5
 
 document.writeln('<br><br>')
 var fruits = ['apple', 'banana', 'mango', 'orange','strawberry']
@@ -47,35 +53,33 @@ for(var j=0;j<fruits.length && number.length;j++){
     document.writeln('Elements at index '+number[j]+' is '+fruits[j]+'<br>')
 }
 
-
-document.writeln('<br><br>')
-var fruits = ['apple', 'banana', 'mango', 'orange','strawberry']
-for(var i=0;i<fruits.length;i++){
-    document.writeln(fruits[i]+'<br>')
-}
-document.writeln('<br>')
-var number = [0,1,2,3,4]
-for(var j=0;j<fruits.length && number.length;j++){
-    document.writeln('Elements at index '+number[j]+' is '+fruits[j]+'<br>')
-}
-
+// Task 6a
 
 document.writeln('<br><br>')
 var counting = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 document.writeln('<b>Counting:</b><br>'+counting+'<br><br>')
 
+// Task 6b
+
 var reverseCounting = [1,2,3,4,5,6,7,8,9,10]
 document.writeln('<b>Reverse Counting:</b><br>'+reverseCounting.reverse()+'<br><br>')
+
+// Task 6c
 
 var even = [0,2,4,6,8,10,12,14,16,18,20]
 document.writeln('<b>Even:</b><br>'+even+'<br><br>')
 
+// Task 6d
+
 var odd = [1,3,5,7,9,11,13,15,17,19]
 document.writeln('<b>Odd:</b><br>'+odd+'<br><br>')
+
+// Task 6e
 
 var series = ['2k','4k','6k','8k','10k','12k','14k','16k','18k','20k']
 document.writeln('<b>Series:</b><br>'+series)
 
+// Task 7
 
 var bakery = new Array('cake', 'apple pie', 'cookie', 'chips', 'patties')
 var order = prompt('Welcome to ABC Bakery. What do you want to order Sir/Mam?')
@@ -91,21 +95,22 @@ for(var i=0;i<bakery.length && index.length ;i++){
     }
 }
 
-
+// Task 8
 
 document.writeln('<br><br>')
-var arr = [24, 53, 78, 91, 12]
-document.writeln('Array Items: '+arr)
+var arr1 = [24, 53, 78, 91, 12]
+document.writeln('Array Items: '+arr1)
 
-var arrMax = Math.max(...arr);
+var arrMax = Math.max(...arr1);
 document.writeln('<br>The largest number is '+arrMax)
 
+// Task 9
 
 document.writeln('<br><br>')
-var arr = [24, 53, 78, 91, 12]
-document.writeln('Array Items: '+arr)
+var arr2 = [24, 53, 78, 91, 12]
+document.writeln('Array Items: '+arr2)
 
-var arrMin = Math.min(...arr);
+var arrMin = Math.min(...arr2);
 document.writeln('<br>The smallest number is '+arrMin)
 
 
